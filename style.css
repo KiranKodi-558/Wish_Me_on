@@ -1,0 +1,62 @@
+*{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url(/CountDown_Timer/Img/birthday.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin: 100px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+
+.time-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
+    /* max-width: 70%; */
+    background-color: rgba(240, 248, 255,0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    padding: 10px 40px;
+}
+
+.days-c, .hours-c, .mins-c, .sec-c{
+    padding: 20px;
+    color: rgb(4, 132, 136);
+    font-size: 20px;
+    margin: 0 60px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 80px;
+}
+
+span{
+    
+    font-size: 15px;
+}
+
+
